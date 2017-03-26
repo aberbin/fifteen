@@ -1,0 +1,39 @@
+body {
+      margin: 0;
+      padding: 0;
+      
+      background: url(images/3.jpg) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+   }
+
+    table, td {
+    	border: 3px solid #1F3236;
+    	text-align: center;
+    	vertical-align: middle;
+    	cursor: pointer;
+
+    }
+    table {
+    	margin: 120px auto 0px;
+    	width: 400px;
+    	height: 400px;
+    	border-collapse: collapse;
+      /*background: #b5bdc8;*/
+      background: rgba(181, 189, 200, 0.2);
+
+    }
+    .td {
+    	
+	    background: linear-gradient(to top, #A9B1BC 0%, #828c95 36%, #1F3236 100%);
+	    font-size: 36px; /* Размер шрифта */
+	    color: #fff; /* Цвет текста */
+	    /*border: 1px solid #333;*/ /* Параметры рамки */
+	    border-radius: 8px; /* Радиус скругления */
+	    width: 90px;
+    	height: 90px;
+    	vertical-align:  middle;
+      position: relative;
+    }
